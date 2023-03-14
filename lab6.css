@@ -16,6 +16,9 @@ main {
 }
 
 main section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 30vw;
 }
 
@@ -25,6 +28,8 @@ main section:nth-of-type(1) {
     float: left;
     */
     flex: 1;
+    align-items: center;
+    justify-content: center;
     background-color: #F4442E;
 }
 
